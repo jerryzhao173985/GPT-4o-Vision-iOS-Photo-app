@@ -54,8 +54,8 @@ struct ContentView: View {
     }
 
     func uploadPhoto(photo: UIImage) {
-        let apiKey = "sk-CQy7FFKPFCOwwhY3A4E84b48E9F24aA18bA86eCf8cDaE55c"
-        let url = URL(string: "https://api.cpdd666.cn/v1/chat/completions")!
+        let apiKey = ""
+        let url = URL(string: "")!
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
